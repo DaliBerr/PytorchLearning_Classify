@@ -7,8 +7,7 @@ from Tensorboard import writer
 import torch
 
 print(torch.cuda.is_available())
-root_path = "J:\\Download\\DataSet\\train"
-#pretrans_root_path = "J:\\Download\\DataSet\\train\\PreTransformer"
+root_path = ".\\DataSet\\train"
 Ants_Image_Path = "ants_image"
 Ants_Label_Path = "ants_label"
 Bees_Image_Path = "bees_image"
